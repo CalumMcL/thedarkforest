@@ -7,7 +7,7 @@
 <!-- Outline the common deployment scenarios which this content contribution will address. -->
 
 **Challenges Addressed**
-<!-- Outline the common challenges which this content contribution will address. -->s
+<!-- Outline the common challenges which this content contribution will address. -->
 
 **Existing content**
 <!-- Is there any existing content this will be modifying or leveraging to complete. Include 3rd party blogs/links -->
