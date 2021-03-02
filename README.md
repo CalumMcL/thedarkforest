@@ -1,5 +1,7 @@
 ## Contribution summary
 
+![Feedback screenshot](/png/feedback.png)
+
 **Blog Post Description**
 <!-- Provide a brief description of the contribution -->
 
