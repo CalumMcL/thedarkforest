@@ -1,51 +1,35 @@
-vabruwer:
-  name: Vanessa Bruwer
+algonz:
+  name: Alex Gonzalez
   team: Infra
-  expertise:
-    - 'Azure Monitor'
-    - 'Kusto'
 
-julng:
-  name: Julie Ng
+tileyden:
+  name: Tim Leyden
+  team: Infra
+
+johanv:
+  name: Johan Vosloo
+  team: Infra
+
+ronelv:
+  name: Ronel Vosloo
+  team: PM
+
+pstanton:
+  name: Pat Stanton
+  team: PM
+
+jpurcell:
+  name: Jason Purcell
+  team: PM
+
+syvautov:
+  name: Sylvia Stojanovski
+  team: PM
+
+rumudhol:
+  name: Rupal Mudholkar
+  team: PM
+
+wviriya:
+  name: Victor Viriya-ampanond
   team: App Dev
-  expertise:
-    - 'CI/CD'
-    - 'DevOps'
-
-wieastbu:
-  name: Will Eastbury
-  team: App Dev
-  expertise:
-    - 'Service Fabric'
-    - 'Logic Apps'
-    - 'Architecture'
-
-todillen:
-  name: Toon Dillen
-  team: Infra
-  expertise:
-    - 'Architecture'
-    - 'Optimisation'
-
-
-joamar:
-  name: Joana Martins
-  team: Infra
-  expertise:
-    - 'Security'
-    - 'Governance'
-
-mavrabie:
-  name: Maria Vrabie
-  team: App Dev
-  expertise:
-    - 'Governance'
-    - 'Cog Services'
-
-emmclare:
-  name: Emily McLaren
-  team: Infra
-
-andersbe:
-  name: Anders Bengtsson
-  team: Infra
