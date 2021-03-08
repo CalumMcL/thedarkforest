@@ -1,0 +1,131 @@
+// Base
+
+.btn,
+a.btn {
+	display: inline-block;
+	vertical-align: middle;
+	padding: .375rem .75rem;
+	background-color: #eee;
+	border: 1px solid #ccc;
+	border-radius: .25rem;
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+
+	&:link, &:visited {
+		color: #333;
+	}
+
+	&:hover, &:active {
+		background-color: #ddd;
+		color: #000;
+	}
+}
+
+// Colors
+
+.btn-primary,
+a.btn-primary {
+	border-color: $btn-primary-border;
+
+	&:link, &:visited {
+		background-color: $btn-primary-bg;
+		color: $btn-primary-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-primary-hover-bg;
+		color: $btn-primary-hover-color;
+	}
+}
+
+.btn-secondary,
+a.btn-secondary {
+	border-color: $btn-secondary-border;
+
+	&:link, &:visited {
+		background-color: $btn-secondary-bg;
+		color: $btn-secondary-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-secondary-hover-bg;
+		color: $btn-secondary-hover-color;
+	}
+}
+
+.btn-blue,
+a.btn-blue {
+	border-color: $btn-blue-border;
+
+	&:link, &:visited {
+		background-color: $btn-blue-bg;
+		color: $btn-blue-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-blue-hover-bg;
+		color: $btn-blue-hover-color;
+	}
+}
+
+.btn-green,
+a.btn-green {
+	border-color: $btn-green-border;
+
+	&:link, &:visited {
+		background-color: $btn-green-bg;
+		color: $btn-green-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-green-hover-bg;
+		color: $btn-green-hover-color;
+	}
+}
+
+.btn-orange,
+a.btn-orange {
+	border-color: $btn-orange-border;
+
+	&:link, &:visited {
+		background-color: $btn-orange-bg;
+		color: $btn-orange-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-orange-hover-bg;
+		color: $btn-orange-hover-color;
+	}
+}
+
+.btn-red,
+a.btn-red {
+	border-color: $btn-red-border;
+
+	&:link, &:visited {
+		background-color: $btn-red-bg;
+		color: $btn-red-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-red-hover-bg;
+		color: $btn-red-hover-color;
+	}
+}
+
+.btn-purple,
+a.btn-purple {
+	border-color: $btn-purple-border;
+
+	&:link, &:visited {
+		background-color: $btn-purple-bg;
+		color: $btn-purple-color;
+	}
+
+	&:hover, &:active {
+		background-color: $btn-purple-hover-bg;
+		color: $btn-purple-hover-color;
+	}
+}
+

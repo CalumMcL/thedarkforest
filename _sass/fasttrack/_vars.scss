@@ -1,0 +1,101 @@
+@import "microsoft-colors";
+
+// Fonts Sizes
+
+$font-size-base:  1rem;     // 16px
+$font-size-sm:    0.875rem; // 14px
+$font-size-xs:    0.75rem;  // 12px
+$h2-font-size:    $font-size-base * 2;
+$h3-font-size:    $font-size-base * 1.5;
+$h4-font-size:    $font-size-base * 1.25;
+$h5-font-size:    $font-size-base * 1;
+
+// Font Families
+
+$body-font:       'Segoe UI', Helvetica, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+// Base Colors
+
+$body-color:            #323130;
+$headline-color:        #006fc8; // $msft-blue;
+$link-color:            #0086ad; // $msft-teal;
+$link-hover-color:      #00b0e2; // $msft-light-teal;
+$border-color-light:    #dcdcdc;
+$border-color-default:  #ddd;
+$msft-light-grey-bg:    #faf9f8;
+$table-border-color:      $border-color-default;
+$white:                   #ffffff;
+
+
+// Header
+$header-color:               #fff;
+$header-height:                80px;
+
+// Navigation (Left)
+
+$nav-list-size:         $font-size-sm;
+$nav-left-color:        $body-color;
+$nav-left-link-color:   $body-color;
+$nav-left-hover-color:  $link-hover-color;
+
+// Grid (see _grid.scss)
+
+$grid-gap: 20px;
+
+
+// Buttons
+
+$btn-default-size:  1rem;
+$btn-lrg:           1.1rem;
+$btn-sm:            $font-size-sm;
+$btn-padding:       .375rem .75rem;
+
+$btn-default-bg:          #dddddd;
+$btn-default-border:      #dddddd;
+$btn-default-color:         $body-color;
+$btn-default-hover-bg:    #d2d2d2;
+$btn-default-hover-color:   $body-color;
+
+$btn-primary-bg:            $msft-blue;
+$btn-primary-border:        $msft-blue;
+$btn-primary-color:         $white;
+$btn-primary-hover-bg:      $msft-light-blue;
+$btn-primary-hover-color:   $white;
+
+$btn-secondary-bg:          $msft-teal;
+$btn-secondary-border:      $msft-teal;
+$btn-secondary-color:       $white;
+$btn-secondary-hover-bg:    $msft-light-teal;
+$btn-secondary-hover-color: $white;
+
+$btn-blue-bg:               $msft-blue;
+$btn-blue-border:           $msft-blue;
+$btn-blue-color:            $white;
+$btn-blue-hover-bg:         $msft-light-blue;
+$btn-blue-hover-color:      $body-color;
+
+$btn-green-bg:              $msft-green;
+$btn-green-border:          $msft-green;
+$btn-green-color:           $white;
+$btn-green-hover-bg:        $msft-light-green;
+$btn-green-hover-color:     $body-color;
+
+$btn-orange-bg:             $msft-orange;
+$btn-orange-border:         $msft-orange;
+$btn-orange-color:          $white;
+$btn-orange-hover-bg:       $msft-light-orange;
+$btn-orange-hover-color:    $body-color;
+
+$btn-red-bg:                $msft-red;
+$btn-red-border:            $msft-red;
+$btn-red-color:             $white;
+$btn-red-hover-bg:          $msft-light-red;
+$btn-red-hover-color:       $body-color;
+
+$btn-purple-bg:             $msft-purple;
+$btn-purple-border:         $msft-purple;
+$btn-purple-color:          $white;
+$btn-purple-hover-bg:       $msft-light-purple;
+$btn-purple-hover-color:    $body-color;
+
+// Microsoft Colors

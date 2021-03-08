@@ -1,0 +1,41 @@
+.container {
+	width: 100%;
+	max-width: 1100px; // Global Max Width
+	margin: 0 auto;
+	padding: 0 20px;
+}
+
+.grid-main {
+	max-width: 100%;
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: auto auto 1fr auto;
+	grid-template-areas:
+		'header'
+		'banner'
+		'main'
+		'footer';
+}
+
+.grid-header {
+	grid-area: header;
+
+	.container {
+		display: grid;
+		grid-template-columns: 200px 1fr;
+	}
+}
+
+.grid-banner {
+	grid-area: banner;
+}
+
+.grid-main {
+	grid-area: main;
+	overflow: auto;
+}
+
+.grid-footer {
+	grid-area: footer;
+}
+

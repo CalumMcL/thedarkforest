@@ -1,0 +1,28 @@
+governance: |
+  The session will provide you the opportunity to expand on your knowledge of Azure Governance topics. It will be delivered by Microsoft FastTrack for Azure engineers. Bring your questions!
+
+security_101: |
+  In this session, learn about Azure Security Center, Azure Defender and Azure Sentinel. We will cover:
+
+  - Azure Security Center and Azure Defender capabilities
+  - How to improve your Secure Score
+  - Introduction to Azure Sentinel
+
+reliability: |
+  Learn how to use the reliability pillar of the [Microsoft Azure Well-Architected Framework](https://docs.microsoft.com/en-us/azure/architecture/framework/) to design a cloud-based architecture that is able to recover gracefully from failures and run in a healthy state with no significant downtime.
+
+  In this session, we will cover how to define the reliability requirements for a cloud workload and how to architect workloads with those requirements in mind. Understanding how to design with failure in mind will help to minimize downtime for critical workloads, whilst understanding the potential costs to your business.
+
+azure_monitor: |
+  In this session, learn about the different components of Azure Monitor, and how you can use them for end-to-end monitoring across components.
+
+  We will cover:
+  - Monitoring considerations from the Cloud Adoption Framework
+  - Azure Monitor overall architecture, including Workspace Design Considerations
+  - Insights and Solutions
+  - Application Insights
+  - VM Insights
+  - Network Insights
+  - Container monitoring
+  - Alerts
+  - Workbooks and Dashboards

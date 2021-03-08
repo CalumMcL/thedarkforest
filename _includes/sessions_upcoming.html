@@ -1,0 +1,51 @@
+<section>
+	{% capture now %}{{'now' | date: '%s' | plus: 0 %}}{% endcapture %}
+	{% for session in site.sessions %}
+		{% capture date %}{{ session.date | date: '%s' | plus: 0 %}}{% endcapture %}
+		{% if date > now %}
+			<article class="session">
+				<h1 class="session-title">{{ session.title }}</h1>
+				<div class="session-timeslot">
+					{% assign session_date = session.date | date_to_string | split: " " %}
+					<h3 class="session-date">{{ session.date | date_to_long_string }}</h3>
+					<p class="session-time">{{ session.time }}</p>
+					<!-- <div class="upcoming-date-calendar">
+						<div class="calendar-day">{{ session_date[0] }}</div>
+						<div class="calendar-month">{{ session_date[1] }}</div>
+					</div> -->
+				</div>
+				<div class="session-details">
+
+					{% if session.standard_description %}
+						{{ site.data.session_descriptions[session.standard_description] | markdownify }}
+					{% endif %}
+
+					{{ session.content | markdownify }}
+
+					{% if session.instructors %}
+						<h3>Instructors</h3>
+						<ul class="session-engineers">
+						{% for instructor in session.instructors %}
+							<li>
+								{% assign engineer = site.data.engineers[instructor] %}
+								{{ engineer.name }}, {{ engineer.team }}
+							</li>
+						{% endfor %}
+						</ul>
+					{% endif %}
+
+					<ul class="session-links">
+						<li>
+							<a href="{{ session.eventbrite_link }}" class="btn btn-primary">Register &rarr;</a>
+						</li>
+						{% if session.survey_link and session.survey_link != '' %}
+						<li>
+							<a href="{{ session.survey_link }}" class="btn">Survey &rarr;</a>
+						</li>
+						{% endif %}
+					</ul>
+				</div>
+			</article>
+		{% endif %}
+	{% endfor %}
+</section>

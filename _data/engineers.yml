@@ -1,0 +1,51 @@
+vabruwer:
+  name: Vanessa Bruwer
+  team: Infra
+  expertise:
+    - 'Azure Monitor'
+    - 'Kusto'
+
+julng:
+  name: Julie Ng
+  team: App Dev
+  expertise:
+    - 'CI/CD'
+    - 'DevOps'
+
+wieastbu:
+  name: Will Eastbury
+  team: App Dev
+  expertise:
+    - 'Service Fabric'
+    - 'Logic Apps'
+    - 'Architecture'
+
+todillen:
+  name: Toon Dillen
+  team: Infra
+  expertise:
+    - 'Architecture'
+    - 'Optimisation'
+
+
+joamar:
+  name: Joana Martins
+  team: Infra
+  expertise:
+    - 'Security'
+    - 'Governance'
+
+mavrabie:
+  name: Maria Vrabie
+  team: App Dev
+  expertise:
+    - 'Governance'
+    - 'Cog Services'
+
+emmclare:
+  name: Emily McLaren
+  team: Infra
+
+andersbe:
+  name: Anders Bengtsson
+  team: Infra

@@ -1,0 +1,49 @@
+.header {
+	margin: 0;
+	height: $header-height;
+	vertical-align: middle;
+	// background-color: $msft-blue;
+	// color: white;
+}
+
+
+.header-nav {
+	// margin: 0;
+	// padding: 0;
+	// display: inline-block;
+	// float: right;
+	text-align: right;
+	height: $header-height;
+	line-height: $header-height;
+	// vertical-align: middle;
+
+	ul {
+		display: inline;
+		margin: 0;
+		padding: 0;
+	}
+
+	li {
+		display: inline-block;
+	}
+
+	a {
+		text-decoration: none;
+		&:hover, &:active {
+			text-decoration: underline;
+		}
+	}
+}
+
+.header-logo {
+	margin-top: 28px;
+	height: 24px;
+	display: inline;
+}
+
+.grid-header {
+	.container {
+		display: grid;
+		grid-template-columns: auto 1fr;
+	}
+}

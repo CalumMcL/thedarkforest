@@ -1,0 +1,88 @@
+
+/* Smartphones (landscape) ----------- */
+@media only screen and (min-width : 769px) {
+
+	.session {
+		display: grid;
+		max-width: 100%;
+		grid-template-columns: 200px auto;
+		grid-template-areas:
+			'. session-title'
+			'session-timeslot session-details';
+	}
+
+	.session-title {
+		grid-area: session-title;
+		margin-bottom: 0;
+	}
+
+	.session-timeslot {
+		grid-area: session-timeslot;
+		margin-top: 1.2em;
+	}
+
+	.session-details {
+		grid-area: session-details;
+	}
+}
+
+.session-details {
+	padding: 0 0 1em 0;
+	border-bottom: 1px solid #ddd;
+
+	h1 {
+		font-size: 1.5rem;
+	}
+
+	h3 {
+		margin: 1em 0 0;
+		font-size: 1em;
+	}
+}
+
+.session-title {
+	margin-bottom: 0.25em;
+	font-size: 1.5rem;
+	line-height: 1.3em;
+	color: $msft-blue;
+}
+
+.session-date {
+	margin: 0;
+	font-size: 1.2em;
+}
+
+.session-time {
+	margin-top: 0.5em;
+}
+
+.session-engineers {
+	padding: 0 0 0 1.2em;
+}
+
+.session-links {
+	list-style-type: none;
+	padding: 0;
+
+	li {
+		display: inline-block;
+		margin-right: 0.5em;
+	}
+}
+
+// .session-date-calendar {
+// 	border: 4px solid $msft-blue;
+// 	border-top-width: 16px;
+// 	border-radius: 6px;
+// 	width: 60px;
+// 	padding: 0.5em 0;
+// 	text-align: center;
+
+// 	.calendar-day {
+// 		font-size: 1.5em;
+// 	}
+
+// 	.calendar-month {
+// 		text-transform: uppercase;
+// 	}
+// }

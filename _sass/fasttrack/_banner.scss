@@ -1,0 +1,25 @@
+.grid-banner {
+	height: 200px;
+	margin-bottom: 1em;
+	background-size: cover;
+	background-position: center;
+	// background-position-y: -50px;
+	// background-image: url('/assets/images/SUR21_Hub2S_Contextual_5798_RGB.jpg');
+	// background:linear-gradient(0deg, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/assets/images/SUR21_Hub2S_Contextual_5798_RGB.jpg');
+
+	color: $white;
+
+	h1 {
+		margin: 0;
+		padding-top: 2em;
+		color: $msft-light-blue;
+	}
+}
+
+.banner-lead {
+	margin-top: 0.5em;
+	font-weight: 300;
+	font-size: 1.6em;
+	line-height: 1.3em;
+	max-width: 600px;
+}

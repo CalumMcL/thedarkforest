@@ -1,0 +1,118 @@
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	font-size: $font-size-base;
+	font-family: $body-font;
+	line-height: 1.4em;
+	color: $body-color;
+}
+
+* {
+	box-sizing: border-box;
+	max-width: 100%;
+}
+
+h1, h2, h3, h4 {
+	font-weight: 600;
+}
+
+h1 {
+	font-size: 1.9rem;
+}
+
+h2 {
+	font-size: 1.6rem;
+	color: $headline-color;
+}
+
+h3 {
+	font-size: 1.3rem;
+}
+
+
+a {
+	&:link {
+		color: $msft-blue;
+	}
+
+	&:visited {
+		color: $msft-dark-purple;
+	}
+
+	&:hover, &:active {
+		color: $msft-teal;
+	}
+}
+
+hr {
+	border: 0;
+	border-top: 1px solid $border-color-light;
+}
+
+li {
+	margin-bottom: 0.25em;
+}
+
+.fta-content {
+	a {
+		text-decoration: underline;
+	}
+}
+
+.is-visible {
+	display: block;
+	visibility: visible;
+}
+
+// Lists
+
+.task-list {
+	padding-left: 0;
+
+	& > li {
+		list-style-type: none;
+	}
+}
+
+.task-list-item-checkbox {
+	margin-right: 0.75em;
+}
+
+// Code
+
+pre,
+code {
+	max-width: 100%;
+	overflow: scroll;
+}
+
+pre {
+	background-color: #eee;
+	padding: 1em;
+}
+
+// Tables
+
+table {
+	margin: 1em 0;
+
+	td,
+	th {
+		padding: 0.2em 0.5em;
+		border: 1px solid $table-border-color;
+	}
+
+	td {
+		vertical-align: top;
+
+		&:first-child {
+			min-width: 200px;
+		}
+	}
+
+	th {
+		vertical-align: bottom;
+	}
+}
