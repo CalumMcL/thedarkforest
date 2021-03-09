@@ -18,11 +18,11 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: FastTrack for Azure Live | EMEA
-email: FTA-emea@microsoft.com # which email?
+title: FastTrack for Azure Live | ASIA
+email: FTALIVEa@microsoft.com # which email?
 description: >- # this means to ignore newlines until "baseurl:"
-  Pilot series of multi-customer engagement sessions.
-baseurl: "/fta-live-emea-website" # the subpath of your site, e.g. /blog
+  Multi customer engineer-led educational sessions
+baseurl: "/ftalive-portal" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll

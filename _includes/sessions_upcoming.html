@@ -40,7 +40,10 @@
 						</li>
 						{% if session.survey_link and session.survey_link != '' %}
 						<li>
-							<a href="{{ session.survey_link }}" class="btn">Survey &rarr;</a>
+							<a href="{{ session.survey_link }}" class="btn">Feedback &rarr;</a>
+						</li>
+						<li>
+							<a href="{{ session.content_link }}" class="btn">Content &rarr;</a>
 						</li>
 						{% endif %}
 					</ul>

@@ -1,25 +1,39 @@
 governance: |
   The session will provide you the opportunity to expand on your knowledge of Azure Governance topics. It will be delivered by Microsoft FastTrack for Azure engineers. Bring your questions!
+  
+  We will cover:
+  - Monitoring considerations from the Cloud Adoption Framework
+  - Azure Monitor overall architecture, including Workspace Design Considerations
+  - Insights and Solutions
 
 intro: |
   This session will give an overview of the FastTrack for Azure program and will be delivered by Microsoft Program Managers.
+  
   We will cover:
-  - Program Summary
-  - Customer Journey
-  - In Scope vs Out of Scope
-  - ...and much more
+  - Monitoring considerations from the Cloud Adoption Framework
+  - Azure Monitor overall architecture, including Workspace Design Considerations
+  - Insights and Solutions
 
 networking: |
   The session will be delivered by Microsoft FastTrack for Azure engineers. It will provide you the opportunity to expand on your knowledge of Azure Networking topics.
+  
+  We will cover:
+  - Monitoring considerations from the Cloud Adoption Framework
+  - Azure Monitor overall architecture, including Workspace Design Considerations
+  - Insights and Solutions
 
 monitoring: |
   The session  will provide you the opportunity to expand on your knowledge of Azure Monitoring topics. It will be delivered by Microsoft FastTrack for Azure engineers. Bring your questions! 
+  
   We will cover:
-  - Cloud Management
-  - Azure Resource Graph
-  - Azure Monitor
-  - Network Watcher
-  - ...and much more
+  - Monitoring considerations from the Cloud Adoption Framework
+  - Azure Monitor overall architecture, including Workspace Design Considerations
+  - Insights and Solutions
 
 iac: |
   We are looking forward to meeting with you about Infrastructure as Code. The format works best when it is interactive, so please feel free to ask questions!
+  
+  We will cover:
+  - Monitoring considerations from the Cloud Adoption Framework
+  - Azure Monitor overall architecture, including Workspace Design Considerations
+  - Insights and Solutions
