@@ -1,10 +1,12 @@
 governance: |
-  The session will provide you the opportunity to expand on your knowledge of Azure Governance topics. It will be delivered by Microsoft FastTrack for Azure engineers. Bring your questions!
+  The session will provide you the opportunity to expand on your knowledge of Azure Governance topics.
   
   We will cover:
-  - Monitoring considerations from the Cloud Adoption Framework
-  - Azure Monitor overall architecture, including Workspace Design Considerations
-  - Insights and Solutions
+  - Subscription Architecture
+  - Resource Groups
+  - Naming Standards
+  - Resource Tags
+  - ...and more...
 
 intro: |
   In this session, you will hear from FTA Program Managers who will discuss the FastTrack for Azure program overview.
@@ -34,7 +36,7 @@ monitoring: |
   - ...and more...
 
 iac: |
-  We are looking forward to meeting with you about Infrastructure as Code. The format works best when it is interactive, so please feel free to ask questions!
+  We are looking forward to meeting with you about Infrastructure as Code.
   
   We will cover:
   - Monitoring considerations from the Cloud Adoption Framework
