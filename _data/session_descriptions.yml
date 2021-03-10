@@ -7,12 +7,13 @@ governance: |
   - Insights and Solutions
 
 intro: |
-  This session will give an overview of the FastTrack for Azure program and will be delivered by Microsoft Program Managers.
+  In this session, you will hear from FTA Program Managers who will discuss the FastTrack for Azure program overview.
   
   We will cover:
-  - Monitoring considerations from the Cloud Adoption Framework
-  - Azure Monitor overall architecture, including Workspace Design Considerations
-  - Insights and Solutions
+  - Program Summary
+  - Customer Journey and Expectations
+  - In Scope vs Out of Scope
+  - ...and more...
 
 networking: |
   The session will be delivered by Microsoft FastTrack for Azure engineers. It will provide you the opportunity to expand on your knowledge of Azure Networking topics.
@@ -23,12 +24,14 @@ networking: |
   - Insights and Solutions
 
 monitoring: |
-  The session  will provide you the opportunity to expand on your knowledge of Azure Monitoring topics. It will be delivered by Microsoft FastTrack for Azure engineers. Bring your questions! 
-  
+  In this session, you will learn about the different components around Azure Monitoring and how you can utilize for end-to-end monitoring across your Cloud Solution.
+
   We will cover:
-  - Monitoring considerations from the Cloud Adoption Framework
-  - Azure Monitor overall architecture, including Workspace Design Considerations
-  - Insights and Solutions
+  - Cloud Management
+  - Azure Resource Graph
+  - Azure Monitor
+  - Network Watcher
+  - ...and more...
 
 iac: |
   We are looking forward to meeting with you about Infrastructure as Code. The format works best when it is interactive, so please feel free to ask questions!
@@ -37,3 +40,22 @@ iac: |
   - Monitoring considerations from the Cloud Adoption Framework
   - Azure Monitor overall architecture, including Workspace Design Considerations
   - Insights and Solutions
+
+modern: |
+  In this session we will discuss the non-technical side of Modern Service Operations aswell as how Cloud Adoption and Well-Architected frameworks can help you.
+  
+  We will cover:
+  - Cloud Operating Models
+  - Cloud RACI
+  - SLA and Resilience
+  - ...and more...
+
+marketplace: |
+  In this session we will talk in detail around the technical requirements in publishing transactable offerings in the Azure Marketplace.
+  The aim will be to simplify the provisioning of these components and help you get to Market faster and how metering works.
+
+  We will cover:
+  - SaaS Transact
+  - Managed Apps
+  - Solution Deployment
+  - ...and more...
